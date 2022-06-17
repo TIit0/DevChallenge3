@@ -182,7 +182,7 @@ body {
     font-size: 1.6rem;
     line-height: 2.5rem;
     margin-bottom: 1.2rem;
-    color: var(--gray1)
+    color: var(--gray1);
 }
 
 .ingredient-list__item::before {
@@ -195,7 +195,14 @@ body {
     left: 0;
     top: 35%;
     transform:translateY(-50%);
+    background-color: white;
 }
+
+.beforeColor::before {
+    background-color: aqua;
+}
+
+
 
 .ingredient-list__item--light {
     font-family: var(--Montserrat);
