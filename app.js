@@ -1,8 +1,11 @@
-const checkbox = document.querySelector(".ingredient-list__item");
+const checkboxArr = document.querySelectorAll(".ingredient-list__item");
+
+console.log(checkboxArr)
+
+checkboxArr.forEach((box) => box.addEventListener("click", backgroundColor) )
+
 
 function backgroundColor() {
-    checkbox.classList.toggle("beforeColor")
+    this.classList.toggle("beforeColor")
 }
 
-
-checkbox.addEventListener("click", backgroundColor);
