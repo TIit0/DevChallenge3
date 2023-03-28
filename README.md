@@ -19,4 +19,6 @@ I was still pretty new to web dev, when I made this, I was still figuring out HT
 
 - the custom bullet points were another challenge i did not realize there was not a "straight foward" way to just change the bullet points. but it was really fun to learn 
 
+PS: the part with this was added way later, i did not know This at the time haha
+
 thanks for reading! 
